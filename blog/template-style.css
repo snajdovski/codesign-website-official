@@ -26,7 +26,22 @@ body{
     font-size: 3em;
     background: rgba(1,1,1,0.9);
     display: inline-block;  
+    
 }
+
+#avatar{
+    height: 100px;
+    width: 100px;
+    background: blue;   
+    border-radius: 100%;
+    border: 2px solid lightblue;
+/*    box-shadow: 3px 3px 10px 7px rgba(1,1,1,0.2);*/
+    background-image: url("test-blogpost/profile-pic.jpg");
+    background-size: cover;   
+    float:left
+   
+    
+    }
 
 
 
@@ -37,4 +52,28 @@ body{
     margin: 0 auto;
     margin-top: -150px;
     box-shadow: 3px 3px 10px 7px rgba(1,1,1,0.1);
+    padding: 50px;
+}
+
+.text-content-area{
+    width:75%;
+    margin:50px;
+    height: auto;
+    border-left: 3px solid lightgray;
+    float:left;
+    padding:40px;
+    box-sizing: border-box;
+}
+
+.text-content-area .last-updated{
+    position: relative;
+    top:-65px;
+    left:-45px;
+    color:cornflowerblue;
+    
+}
+
+.text-content-area h1{
+   color:cornflowerblue;
+    
 }
