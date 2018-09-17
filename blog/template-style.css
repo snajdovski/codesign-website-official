@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+    .top-navigation{
+    height: 50px;
+    box-sizing: border-box;
+        
+}
+
+.top-navigation span{
+    float:left;
+    padding: 1em ;
+}
+
+.header-image{
+    height: 400px;    
+    text-align: center;
+    background-image: url("test-blogpost/blogpost-heading.jpg");
+    background-size: cover; 
+    padding-top: 100px;
+}
+
+#article-title-main {
+    color: white;     
+    padding: 20px;    
+    font-size: 3em;
+    background: rgba(1,1,1,0.9);
+    display: inline-block;  
+}
+
+
+
+.content-area{
+    width: 70%;
+    height: 700px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: -150px;
+    box-shadow: 3px 3px 10px 7px rgba(1,1,1,0.1);
+}
